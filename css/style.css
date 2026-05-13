@@ -33,7 +33,7 @@ p{
     font-family: "Open Sans",sans-serif;
     padding-bottom: 40px;
 }
-a{
+a, textarea{
     font-family: "Roboto",sans-serif;
     text-decoration: none;
     color: var(--color5);
@@ -324,6 +324,10 @@ footer{
         padding-bottom: 5px;
         padding-left: 15px;
         padding-right: 15px;  
+         }
+         .submit:hover{
+            background-color: var(--color3);
+            color: var(--color5);
          }
         }
     }
